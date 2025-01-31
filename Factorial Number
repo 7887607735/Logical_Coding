@@ -1,9 +1,10 @@
-Public Class Factorial{
-public static void main(String args[]){
-int i, fact=0;
+public class SwapWithThirdVariable {
+    public static void main(String[] args) {
+      int i, fact=1;
 int num=5; // to calculate factorial
-for(int i=1;i>=5;i++){
+for(i=1;i<=num;i++){
 fact=fact*i;
 }
-System.out.println("The factorial of number" + num + "is " + fact);
+System.out.println("The factorial of number " + num + " is " + fact);
+}
 }
