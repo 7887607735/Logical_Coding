@@ -1,5 +1,5 @@
 Class Reverse {
-public static void main{ 
+public static void main(String args[]){ 
 int rev, rem, num=125;
 while(n!=0){
 rem=num%10;
