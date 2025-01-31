@@ -1,1 +1,10 @@
-
+Class Reverse {
+public static void main{ 
+int rev, rem, num=125;
+while(n!=0){
+rem=num%10;
+rev=rev*10+rem;
+num=num/10;
+}
+System.out.println("The reverse of the number is " + rev);
+}
