@@ -1,4 +1,4 @@
-Class Factorial{
+Public Class Factorial{
 public static void main(String args[]){
 int i, fact=0;
 int num=5; // to calculate factorial
