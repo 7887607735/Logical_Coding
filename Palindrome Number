@@ -1,17 +1,18 @@
-Class Palindrome{
-public static void main{
+Public Class Palindrome{
+public static void main(String[] args) {
 int r,sum=0,temp;
-int n=454;
+int n=222;
 
 temp=n;
 while(n>0){
-r=n%10 //Getting Remainder
+r=n%10; //Getting Remainder
 sum=(sum*10)+r;
 n=n/10;
 }
 if(temp==sum){
-System.out.println(n + "is palindrome number");
+System.out.println("palindrome number");
 }
 else {
-System.out.println(n + " is not palindrome number");
+System.out.println("not palindrome number");
 }
+}}
